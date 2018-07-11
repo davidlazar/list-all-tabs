@@ -1,0 +1,22 @@
+{
+  "applications": {
+    "gecko": {
+      "strict_min_version": "58.0a1"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "List All Tabs"
+  },
+  "description": "List tabs, find duplicates, and close them.",
+  "homepage_url": "https://github.com/davidlazar/list-all-tabs",
+  "manifest_version": 2,
+  "name": "List All Tabs",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "0.1"
+}
